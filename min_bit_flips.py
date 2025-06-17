@@ -1,3 +1,7 @@
+# XOR (^) gives a binary number where bits are 1 if they are different in num1 and num2.
+# bin(xor_result) converts that number to binary string.
+# .count('1') counts the number of bits that need flipping.
+
 import sys
 
 def count_bit_flips(num1: int, num2: int) -> int:
